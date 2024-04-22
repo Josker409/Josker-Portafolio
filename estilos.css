@@ -78,3 +78,42 @@ p{
     top: 160px;
     left: 240px;
 }
+
+footer{
+    color: chartreuse;
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+}
+
+footer p{
+    margin-bottom: 20px;
+    color: azure;
+}
+
+footer .redes a{
+    color: azure; 
+    text-decoration: none;
+}
+
+footer .redes i{
+    color: azure;
+    font-style: 50px;
+}
+.numero{
+    margin: 30px;
+}
+.correo{
+    margin: 40px;
+}
+.linkedin{
+    margin: 20px;
+}
+.instagram{
+    margin: 30px;
+}
+.copyright{
+    margin: 100px;
+    text-align: center;
+    position: static;
+}
