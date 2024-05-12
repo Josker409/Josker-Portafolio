@@ -47,94 +47,38 @@ nav{
 .nav-item{
     margin: 100px;
 }
-/* hast aqui :* */
+/* hasta aqui :* */
 
 p{
     color: azure;
 }
 h1{
-    margin-left: 340px;
+    margin-left: 120px;
 }
 h4{
-    width: 300px;
+    margin-right: 10px;
+    height: 220px;
+    text-align: center;
 }
 .Josker{
-    margin-left: 200px;
+    margin-left: 220px;
+    padding: 10px;
     border-radius: 10%;
 }
-.cuadrado{
-    height: 280px;
-    width: 180px;
-    /* background-color: orange; */
-    /* border: 2px solid white; */
-    font-size: 30px;
+
+hr{
+    color: azure;
+}
+
+.enlace{
+    margin-left: 30px;
+    
+}
+h5{
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
-    color: wheat;
-    text-transform: uppercase;
 }
-
-#c1{
-    position: fixed;
-    top: 140px;
-    left: 820px;
-}
-#c2{
-    position: relative;
-    top: 20px;
-    left: 60px;
-}
-#c3{
-    position: fixed;
-    top: 340px;
-    left: 400px;
-}
-#c4{
-    position: relative;
-    top: 400px;
-    left: 640px;
-}
-#c5{
-    position: fixed;
-    top: 180px;
-    left: 180px;
-}
-#c6{
-    position: relative;
-    top: 160px;
-    left: 400px;
-}
-#c7{
-    position: fixed;
-    top: 220px;
-    left: 640px;
-}
-#c8{
-    position: relative;
-    top: 20px;
-    left: 40px;
-}
-#c9{
-    position: fixed;
-    top: 160px;
-    left: 400px;
-}
-#c10{
-    position: relative;
-    top: 400px;
-    left: 640px;
-}
-#c11{
-    position: sticky;
-    top: 240px;
-    left: 840px;
-}
-#c12{
-    position: relative;
-    top: 10px;
-    left: 400px;
-
-}
-
 
 h2{
     margin-left: 20px;
@@ -165,7 +109,7 @@ footer .redes i{
     font-style: 50px;
 }
 .correo{
-    margin: 10px;
+    margin: 20px;
 }
 .linkedin{
     margin: 20px;
@@ -175,20 +119,299 @@ footer .redes i{
 }
 .copyright{
     margin: 20px;
-    text-align: center;
-    position: static;
 }
 
 /*  */
 
-@media only screen and (min-width: 0px) {
-    
+@media only screen and (min-width: 360px) {
+    h1{
+        margin-left: 120px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 100px;
+        margin-block-start: 10px;
+    }
+    h4{
+        margin-left: 20px;
+        margin-block-start: 20px;
+    }
+
 }
 
-@media only screen and (min-width: 350px) {
-    
+@media only screen and (min-width: 380px) {
+    .enlace{
+        margin-left: 40px;
+    }
 }
 
-@media only screen and (min-width: 384px) {
-    
+@media only screen and (min-width: 400px) {
+    h1{
+        margin-left: 140px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 120px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 60px;
+    }
+    h5{
+        text-align: center;
+    }
 }
+
+@media only screen and (min-width: 430px) {
+    .enlace{
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    h1{
+        margin-left: 160px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 140px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 80px;
+    }
+    h5{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 470px) {
+    .enlace{
+        margin-left: 90px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    h1{
+        margin-left: 180px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 160px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 530px) {
+    .enlace{
+        margin-left: 110px;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    h1{
+        margin-left: 200px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 180px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (min-width: 580px) {
+    .enlace{
+        margin-left: 130px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1{
+        margin-left: 220px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 200px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 140px;
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    .enlace{
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    h1{
+        margin-left: 240px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 220px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    .enlace{
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    h1{
+        margin-left: 280px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 260px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 190px;
+    }
+}
+
+@media only screen and (min-width: 730px) {
+    .enlace{
+        margin-left: 220px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    h1{
+        margin-left: 300px;
+    }
+    .Josker{
+        height: 330px;
+        margin-left: 280px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 240px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1{
+        margin-left: 300px;
+    }
+    .Josker{
+        height: 300px;
+        margin-left: 140px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .enlace{
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    h1{
+        margin-left: 330px;
+    }
+    .Josker{
+        height: 300px;
+        margin-left: 160px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width: 850px){
+    h1{
+        margin-left: 380px;
+    }
+    .Josker{
+        height: 300px;
+        margin-left: 160px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 910px){
+    h1{
+        margin-left: 420px;
+    }
+    .Josker{
+        height: 300px;
+        margin-left: 180px;
+        margin-block-start: 10px;
+    }
+
+    .enlace{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 990px){
+    h1{
+        margin-left: 460px;
+    }
+    .Josker{
+        height: 300px;
+        margin-left: 200px;
+        margin-block-start: 10px;
+    }
+    h4{
+       margin-right: 100px;
+    }
+
+    .enlace{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    h1{
+        margin-left: 500px;
+    }
+    .Josker{
+        height: 300px;
+        margin-left: 220px;
+        margin-block-start: 10px;
+    }
+    h4{
+        margin-right: 120px;
+    }
+
+    .enlace{
+        margin-left: 100px;
+    }
+}
+
