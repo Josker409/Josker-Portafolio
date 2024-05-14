@@ -88,6 +88,69 @@ li{
     margin-left: 40px;
 }
 
+.autor{
+    margin-left: 80px;
+}
+.lista{
+    margin-left: 40px;
+}
+
+
+.rectangulo1{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset ;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(0,0,0);
+}
+.rectangulo2{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(255,250,250);
+}
+.rectangulo3{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(210,105,30);
+}
+.rectangulo4{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(222,184,135);
+}
+.rectangulo5{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(0,255,127);
+}
+.rectangulo6{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: #F8FFE5;
+}
+
 footer{
     padding: 20px;
     text-align: center;
@@ -121,6 +184,20 @@ footer .redes i{
     margin: 20px;
 }
 
+.What {
+    height: 40px;
+    width: 40px;
+    background-color: springgreen;
+    color: #F8FFE5;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 2px solid #F8FFE5;
+}
+
 /*  */
 
 @media only screen and (min-width: 360px) {
@@ -136,7 +213,6 @@ footer .redes i{
         margin-left: 20px;
         margin-block-start: 20px;
     }
-
 }
 
 @media only screen and (min-width: 380px) {
@@ -153,6 +229,13 @@ footer .redes i{
         height: 330px;
         margin-left: 120px;
         margin-block-start: 10px;
+    }
+
+    .autor{
+        margin-left: 90px;
+    }
+    .lista{
+        margin-left: 60px;
     }
 
     .enlace{
@@ -179,6 +262,13 @@ footer .redes i{
         margin-block-start: 10px;
     }
 
+    .autor{
+        margin-left: 120px;
+    }
+    .lista{
+        margin-left: 80px;
+    }
+
     .enlace{
         margin-left: 80px;
     }
@@ -203,6 +293,13 @@ footer .redes i{
         margin-block-start: 10px;
     }
 
+    .autor{
+        margin-left: 140px;
+    }
+    .lista{
+        margin-left: 100px;
+    }
+
     .enlace{
         margin-left: 100px;
     }
@@ -222,6 +319,13 @@ footer .redes i{
         height: 330px;
         margin-left: 180px;
         margin-block-start: 10px;
+    }
+
+    .autor{
+        margin-left: 180px;
+    }
+    .lista{
+        margin-left: 140px;
     }
 
     .enlace{
@@ -245,6 +349,13 @@ footer .redes i{
         margin-block-start: 10px;
     }
 
+    .autor{
+        margin-left: 200px;
+    }
+    .lista{
+        margin-left: 160px;
+    }
+
     .enlace{
         margin-left: 140px;
     }
@@ -264,6 +375,13 @@ footer .redes i{
         height: 330px;
         margin-left: 220px;
         margin-block-start: 10px;
+    }
+
+    .autor{
+        margin-left: 220px;
+    }
+    .lista{
+        margin-left: 180px;
     }
 
     .enlace{
@@ -287,6 +405,13 @@ footer .redes i{
         margin-block-start: 10px;
     }
 
+    .autor{
+        margin-left: 250px;
+    }
+    .lista{
+        margin-left: 210px;
+    }
+
     .enlace{
         margin-left: 190px;
     }
@@ -308,6 +433,13 @@ footer .redes i{
         margin-block-start: 10px;
     }
 
+    .autor{
+        margin-left: 280px;
+    }
+    .lista{
+        margin-left: 240px;
+    }
+
     .enlace{
         margin-left: 240px;
     }
@@ -321,6 +453,13 @@ footer .redes i{
         height: 300px;
         margin-left: 140px;
         margin-block-start: 10px;
+    }
+
+    .autor{
+        margin-left: 120px;
+    }
+    .lista{
+        margin-left: 40px;
     }
 
     .enlace{
@@ -344,6 +483,13 @@ footer .redes i{
         margin-block-start: 10px;
     }
 
+    .autor{
+        margin-left: 160px;
+    }
+    .lista{
+        margin-left: 40px;
+    }
+
     .enlace{
         margin-left: 80px;
     }
@@ -359,6 +505,10 @@ footer .redes i{
         margin-block-start: 10px;
     }
 
+    .autor{
+        margin-left: 180px;
+    }
+
     .enlace{
         margin-left: 100px;
     }
@@ -372,6 +522,10 @@ footer .redes i{
         height: 300px;
         margin-left: 180px;
         margin-block-start: 10px;
+    }
+
+    .autor{
+        margin-left: 200px;
     }
 
     .enlace{
@@ -390,6 +544,10 @@ footer .redes i{
     }
     h4{
         margin-right: 100px;
+    }
+
+    .autor{
+        margin-left: 240px;
     }
 
     .enlace{
