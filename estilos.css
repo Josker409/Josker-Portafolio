@@ -151,6 +151,21 @@ li{
     background: #F8FFE5;
 }
 
+.p{
+    margin-left: 100px;
+    height: 20px;
+    text-align: start;
+    color: azure;
+}
+dt{
+    margin-left: 40px;
+}
+.navega{
+    text-decoration: none;
+    text-shadow: none;
+    color: azure;
+}
+
 footer{
     padding: 20px;
     text-align: center;
